@@ -1,0 +1,49 @@
+.tab-header-background {
+  -fx-background-color:#666666;
+}
+.tab-header-area{
+  -fx-padding: 0 0 0 0;
+}
+
+.tab-first-area{
+-fx-background-color:#66cdaa;
+}
+.tab-second-area{
+-fx-background-color:#ffd700;
+}
+.tab-thirth-area{
+-fx-background-color:#ff4040;
+}
+.tab{
+  
+     -fx-pref-width:100px;
+      -fx-font-size: 15px;
+      -fx-font-weight:900;	
+     -fx-padding: 10 20 10 20;
+     -fx-margin-start:0px;
+}
+
+.first-tab{
+-fx-background-color:#66cdaa;
+ -fx-border-color:#66cdaa;
+}
+
+.second-tab{
+-fx-background-color:#ffd700;
+ -fx-border-color:#ffd700;
+}
+.thirh-tab{
+-fx-background-color:#ff4040;
+ -fx-border-color:#ff4040;
+}
+
+.tab-label{
+   -fx-text-fill: white;
+}
+
+.progress-bar{
+  -fx-padding: 0 0 0 0;
+}
+.progress-indicator:indetermindate{
+  -fx-padding: 0 0 0 0;
+}
