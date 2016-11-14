@@ -1,0 +1,88 @@
+.tab-header-background {
+  -fx-background-color:#666666;
+}
+.tab-header-area{
+  -fx-padding: 0 0 0 0;
+}
+
+.tab-first-area{
+-fx-background-color:#66cdaa;
+}
+.tab-second-area{
+-fx-background-color:#404040;
+}
+.tab-thirth-area{
+-fx-background-color:#ff4040;
+}
+.tab{
+  
+     -fx-pref-width:100px;
+      -fx-font-size: 15px;
+      -fx-font-weight:900;	
+     -fx-padding: 10 20 10 20;
+     -fx-margin-start:0px;
+}
+
+.first-tab{
+-fx-background-color:#66cdaa;
+ -fx-border-color:#66cdaa;
+}
+
+.second-tab{
+-fx-background-color:#404040;
+ -fx-border-color:#404040;
+}
+.thirh-tab{
+-fx-background-color:#ff4040;
+ -fx-border-color:#ff4040;
+}
+
+.tab-label{
+   -fx-text-fill: white;
+}
+
+
+
+.progress-bar { 
+	-fx-accent:#00ced1; -fx-border-width:0;  -fx-control-inner-background: #666666;
+}
+.progress-bar .bar {
+    -fx-background-color:#00ced1;
+    -fx-background-insets: 0, 1, 2;
+    -fx-padding: 0.416667em; /* 5 */
+}
+
+.progress-bar:indeterminate .bar {
+    -fx-background-color: #666666;
+}
+
+.progress-bar .track {
+     -fx-background-color:#666666;
+    -fx-background-insets:  0, 1;
+}
+
+.progress-bar:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+
+.top-button-imageview:hover{
+	  -fx-scale-x:1.2;
+	  -fx-scale-y:1.2;
+	  	 
+}
+
+.top-button-label:hover{	 
+	  -fx-border-width: 1px;
+	  -fx-border-color: white;
+	  -fx-border-style: solid;
+}
+
+.refleash-button:hover{
+	  -fx-scale-x:1.2;
+	  -fx-scale-y:1.2;
+	   -fx-rotate:90;
+	
+	
+}
+

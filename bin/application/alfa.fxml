@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane depthTest="DISABLE" maxHeight="250.0" maxWidth="600.0" minHeight="250.0" minWidth="600.0" prefHeight="250.0" prefWidth="600.0" style="-fx-background-color: #666666;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="146.0" layoutY="51.0" text="Waiting For Device">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="bershmlug" layoutY="127.0" maxHeight="10.0" maxWidth="-Infinity" minHeight="10.0" minWidth="-Infinity" prefHeight="10.0" prefWidth="600.0" progress="0.0" />
+   </children>
+</Pane>

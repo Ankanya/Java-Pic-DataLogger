@@ -1,0 +1,25 @@
+.progress-bar { 
+	
+
+    
+	
+	-fx-accent:#00ced1; -fx-border-width:0;  -fx-control-inner-background: #666666;
+}
+.progress-bar .bar {
+    -fx-background-color:#00ced1;
+    -fx-background-insets: 0, 1, 2;
+    -fx-padding: 0.416667em; /* 5 */
+}
+
+.progress-bar:indeterminate .bar {
+    -fx-background-color: #666666;
+}
+
+.progress-bar .track {
+     -fx-background-color:#666666;
+    -fx-background-insets:  0, 1;
+}
+
+.progress-bar:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
